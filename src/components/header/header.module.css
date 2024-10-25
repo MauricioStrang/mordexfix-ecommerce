@@ -1,0 +1,198 @@
+.container{
+    width: 100vw;
+    max-width: 100vw;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.brgMenuContainer{
+    display: flex;
+    padding-left: 10px;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.logo{
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+}
+
+.searchContainer {
+    height: 50px;
+    width: 1480px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px; /* Set a smaller, consistent value */
+    background-color: azure;
+    border: 2px solid #E8E8E8; /* Keep the dark gray border */
+    box-shadow: 0 2px 3px #8080801c;
+}
+
+.dropdownContainer{
+    height: 100%;
+    width: 130px;
+    position: relative;
+    border-color: #E8E8E8
+}
+
+.selectButton{
+    position: absolute;
+    display: flex;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.selectLabel{
+    width:100%;
+    height: 100%;
+    color: rgb(77, 77, 77);
+    border: 2px solid #E8E8E8;
+    border-radius: 3px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    pointer-events: none;
+    background: #e8e8e8;
+    border: 0;
+    box-shadow: none;
+}
+
+.dropdownIconContainer{
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    width:90%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.searchInputContainer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(216, 182, 216);
+}
+
+.searchInput{
+    padding-left: 10px;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none; /* Remove default border */
+    outline: none; /* Remove black focus outline */
+    font-size: 17px;
+}
+
+.searchInput::placeholder {
+    color: rgb(177, 177, 177); 
+    opacity: 1;  
+  }
+
+.searchBtnContainer{
+    height: 100%;
+    width: 54px;
+    border-radius: 3px;
+    background-color: #e87714;
+    border: 1px solid #e87714;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 0 #8080801c;
+}
+
+.userContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.cartContainer{
+    padding-left: 25px;
+}
+
+
+
+/*/////////// SUB HEADER //////////*/
+
+
+.subHeader {
+    display: flex;
+    align-items: center;
+    max-height: 0; /* Start with a collapsed height */
+    overflow: hidden; /* Hide any content when collapsed */
+    position: absolute;
+    width: 100vw;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 0 10px; /* Padding for the left and right, but not top/bottom initially */
+    transition: max-height 0.25s ease-in-out, padding 0.25s ease-in-out;
+    transition-delay: 0s; /* No delay on hover */
+}
+
+.container:hover .subHeader {
+    max-height: 500px; /* Expand the height smoothly */
+    padding: 10px; /* Add padding back on hover */
+    box-shadow: 0 3px 0 #8080801c;
+}
+
+.navMenu{
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+
+.navMenuBtn{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.navMenuLabel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0;
+    border: 2px solid #31313173;
+
+}
+
+.subDropdownIconContainer{
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    width:100%;
+    padding-left: 70px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
