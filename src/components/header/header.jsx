@@ -21,13 +21,13 @@ const Header =()=> {
 
         <div className={styles.searchContainer}>
             <div className={styles.dropdownContainer}>
-                <select className={styles.selectButton} name="Categorías" id="cars">
-                    <option value="volvo">Categorías</option>
-                    <option value="volvo">Remeras</option>
-                    <option value="saab">Herramientas</option>
-                    <option value="opel">Sticker</option>
+                <select className={styles.selectButton}  id="cars">
+                    <option value="volvo">All Categories</option>
+                    <option value="volvo">T-Shirts</option>
+                    <option value="saab">Tools</option>
+                    <option value="opel">Stickers</option>
                 </select>
-                <label className={styles.selectLabel}>Categorías</label>
+                <label className={styles.selectLabel}>All Cateogories</label>
 
                 <div className={styles.dropdownIconContainer}>
                     <Image 
@@ -43,7 +43,7 @@ const Header =()=> {
                 <input 
                 className= {styles.searchInput} 
                 type="text" 
-                placeholder = "¿Qué estás buscando?"
+                placeholder = "What are you looking for?"
                 />
             </div>
 
@@ -79,13 +79,13 @@ const Header =()=> {
 
         <div className={styles.subHeader}>
             <div className= {styles.navMenu}>
-                <select className={styles.navMenuBtn} name="Tienda" id="cars">
-                    <option value="volvo">Todos los prouctos</option>
-                    <option value="volvo">Consolas</option>
-                    <option value="volvo">Computadoras</option>
-                    <option value="saab">Otros Electrónicos</option>
+                <select className={styles.navMenuBtn}>
+                    <option value="volvo">All products</option>
+                    <option value="volvo">Clothing</option>
+                    <option value="volvo">Gear</option>
+                    <option value="saab">Restorish</option>
                 </select>
-                <label className={styles.navMenuLabel}>Tienda</label>
+                <label className={styles.navMenuLabel}>Store</label>
                 {/* <div className={styles.subDropdownIconContainer}>
                     <Image 
                         className={styles.dropdownIcon}
@@ -96,13 +96,11 @@ const Header =()=> {
             </div>
 
             <div className= {styles.navMenu}> 
-                <select className={styles.navMenuBtn} name="Redes" id="cars">
-                    <option value="volvo">Facebook</option>
-                    <option value="volvo">Instagram</option>
-                    <option value="volvo">YoutubeEN</option>
-                    <option value="saab">TwitchEN</option>
+                <select className={styles.navMenuBtn} >
+                    <option value="volvo">Blog</option>
+                    <option value="volvo">Forum</option>
                 </select>
-                <label className={styles.navMenuLabel}>Redes</label>
+                <label className={styles.navMenuLabel}>DIY</label>
                 {/* <div className={styles.subDropdownIconContainer}>
                     <Image 
                         className={styles.dropdownIcon}
@@ -120,12 +118,12 @@ const Header =()=> {
                         width={20} height={20}
                     />
                 </div> */}
-                <select className={styles.navMenuBtn} name="Sobre-mi" id="cars">
+                <select className={styles.navMenuBtn}>
                     <option value="volvo">FAQ</option>
-                    <option value="volvo">Contactame</option>
-                    <option value="volvo">¿Quién soy?</option>
+                    <option value="volvo">Contact us</option>
+                    <option value="volvo">Electronics Submissions</option>
                 </select>
-                <label className={styles.navMenuLabel}>Sobre mí</label>
+                <label className={styles.navMenuLabel}>About us</label>
             </div>
             
         </div>
