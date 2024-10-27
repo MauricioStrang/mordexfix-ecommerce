@@ -1,40 +1,39 @@
 .container{
-    width: 100vw;
+    width: 100%;
     max-width: 100vw;
     position: fixed;
     align-items: center;
     display: flex;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: white;
     z-index: 1000;
-}
-
-.brgMenuContainer{
-    display: flex;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logoContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 5px;
-    padding-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .logo{
     font-family: Nunito Sans, sans-serif;
     font-style: normal;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: var(--font-size-body);
     display: block;
     width: 100%;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: none;
+    word-break: break-word;
 }
 
 .searchContainer {
     height: 50px;
-    width: 1480px;
+    width: 1540px;
     display: flex;
     align-items: center;
     border-radius: 5px; /* Set a smaller, consistent value */
@@ -45,7 +44,7 @@
 
 .dropdownContainer{
     height: 100%;
-    width: 130px;
+    width: 170px;
     position: relative;
     border-color: #E8E8E8
 }
@@ -96,8 +95,8 @@
     height: 100%;
     width: 100%;
     color: rgb(0, 0, 0);
-    border: none; /* Remove default border */
-    outline: none; /* Remove black focus outline */
+    border: none;
+    outline: none; 
     font-size: 17px;
 }
 
@@ -108,7 +107,7 @@
 
 .searchBtnContainer{
     height: 100%;
-    width: 54px;
+    width: 65px;
     border-radius: 3px;
     background-color: #e87714;
     border: 1px solid #e87714;
@@ -125,8 +124,21 @@
     padding-left: 70px;
 }
 
+.login{
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0em;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
 .cartContainer{
-    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
 }
 
 
