@@ -11,8 +11,9 @@ export default function Home() {
     <div className={styles.container}>
         <div className={styles.mordexBannerContainer}>
           <Image
+          priority
           src='/mordexfix1.png'
-          alt=''
+          alt='mordexFix main banner'
           fill
           className={styles.mordexBanner} 
           />
@@ -26,6 +27,7 @@ export default function Home() {
                 <div className={styles.imgContainer}>
                   <Image 
                   src='/people-outline.svg'
+                  alt="about icon"
                   fill
                   className={styles.img}
                   />
@@ -44,6 +46,7 @@ export default function Home() {
                 <div className={styles.imgContainer}>
                     <Image 
                     src='/store.svg'
+                    alt="store icon"
                     fill
                     className={styles.img}
                     />
@@ -62,6 +65,7 @@ export default function Home() {
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/business.svg'
+                      alt="business icon"
                       fill
                       className={styles.img}
                       />
@@ -80,6 +84,7 @@ export default function Home() {
                 <div className={styles.imgContainer}>
                       <Image 
                       src='/repairs.svg'
+                      alt="about icon"
                       fill
                       className={styles.img}
                       />
@@ -101,7 +106,11 @@ export default function Home() {
                 <div className={styles.blogPost}>
                   <div className={styles.blogImgContainer}>
                     <a href="/blog/ps5">
-                      <Image src={'/ps5.png'} fill className={styles.blogImg}/>
+                      <Image 
+                      src={'/ps5.png'} 
+                      alt="ps5 repair blog"
+                      fill 
+                      className={styles.blogImg}/>
                     </a>
                   </div>
                   <h2 className={styles.blogTitle}><a href="/blog/ps5">PS5 Optical Disc Drive Problems</a></h2>
@@ -113,7 +122,11 @@ export default function Home() {
                 <div className={styles.blogPost}>
                   <div className={styles.blogImgContainer}>
                     <a href="/blog/soldering">
-                      <Image src={'/soldering.png'} fill className={styles.blogImg}/>
+                      <Image 
+                      src={'/soldering.png'}
+                      alt="soldering blog"
+                      fill 
+                      className={styles.blogImg}/>
                     </a>
                   </div>
                   <h2 className={styles.blogTitle}><a href="/blog/ps5">How To Solder On Fan and Power Supply Connectors</a></h2>
@@ -125,7 +138,11 @@ export default function Home() {
                 <div className={styles.blogPost}>
                   <div className={styles.blogImgContainer}>
                     <a href="/blog/retrogames">
-                      <Image src={'/retrogames.png'} fill className={styles.blogImg}/>
+                      <Image 
+                      src={'/retrogames.png'} 
+                      alt="retro games repair"
+                      fill 
+                      className={styles.blogImg}/>
                     </a>
                   </div>
                   <h2 className={styles.blogTitle}><a href="/blog/ps5">How to Clean Retro Game Cartridges</a></h2>
