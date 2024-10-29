@@ -48,6 +48,7 @@
   width: 50px;
   height: 50px;
   position: relative;
+  color: #046e82;
 }
 
 .img{
@@ -138,3 +139,43 @@
   color: #e87714;
   margin-bottom: 50px;
 }
+
+.store{
+  margin-left: 4px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .container{
+      flex-direction:column;
+      text-align: center;
+  }
+  .blogPostsContainer{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .links{
+    margin-left: 0;
+    margin-right: 0; 
+    
+    padding-right: 0;
+  }
+  .linksContainer{
+    padding-right: 0; 
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+  .container{
+      flex-direction:column;
+  }
+  
+}
+
