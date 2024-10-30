@@ -5,7 +5,12 @@ const Header =()=> {
   return (
 
     <div className={styles.container}>
-
+        <div className={styles.brgMenu}>
+          <h1>XD</h1>
+        </div>
+        <div className={styles.mobileSearch}>
+          <h1>Search</h1>
+        </div>
         <div className={styles.logoContainer}>
             <h1 className={styles.logo}> Mordex Fix </h1>
         </div>

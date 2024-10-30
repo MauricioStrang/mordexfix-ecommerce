@@ -8,6 +8,14 @@
     width: 100vw;
 }
 
+.brgMenu{
+    display: none;
+}
+
+.mobileSearch{
+    display: none;
+}
+
 .logoContainer{
     display: flex;
     justify-content: center;
@@ -22,7 +30,7 @@
     font-weight: 700;
     font-size: var(--font-size-body);
     display: block;
-    width: 100%;
+    width: 100px;
     letter-spacing: 0;
     text-decoration: none;
     text-transform: none;
@@ -41,7 +49,7 @@
 
 .dropdownContainer{
     height: 100%;
-    width: 170px;
+    width: 140px;
     position: relative;
     border-color: #E8E8E8
 }
@@ -49,13 +57,13 @@
 .selectButton{
     position: absolute;
     display: flex;
-    width:100%;
+    width:140px;
     height: 100%;
     opacity: 0;
 }
 
 .selectLabel{
-    width:100%;
+    width:140px;
     height: 100%;
     color: rgb(77, 77, 77);
     border: 2px solid #E8E8E8;
@@ -75,13 +83,14 @@
     position: absolute;
     pointer-events: none;
     display: flex;
-    width:90%;
+    width: 130px;
     height: 100%;
     justify-content: flex-end;
     align-items: center;
 }
 
 .searchInputContainer{
+    padding-left: 15px;
     width: 100%;
     height: 100%;
     background-color: rgb(216, 182, 216);
@@ -136,6 +145,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -208,14 +218,29 @@
 
 
 @media (max-width: 1024px) {
-    
+    .userContainer{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
-    .container{
-        flex-direction:column;
+    .searchContainer{
+        display: none;
+    }
+    .logoContainer{
+        margin-left: auto;
+    }
+    .cartContainer{
+        margin-left: auto;
     }
     
+    .brgMenu{
+        display: flex;
+    }
+    
+    .mobileSearch{
+        display: flex;
+    }
 }
 
 

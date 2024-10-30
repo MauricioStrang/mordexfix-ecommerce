@@ -9,6 +9,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className={styles.container}>
+        
         <div className={styles.mordexBannerContainer}>
           <Image
           priority
