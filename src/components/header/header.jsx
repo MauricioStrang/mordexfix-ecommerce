@@ -6,10 +6,14 @@ const Header =()=> {
 
     <div className={styles.container}>
         <div className={styles.brgMenu}>
-          <h1>XD</h1>
+          <Image 
+          src={"/menu2.png"} 
+          className={styles.brgBtn}
+          alt="burger menu"
+          fill/>
         </div>
         <div className={styles.mobileSearch}>
-          <h1>Search</h1>
+            <svg alt= "search icon" aria-hidden="true" focusable="false" role="presentation" color= "black" xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="none" viewBox="0 0 23 24"><path d="M21 21L15.5 15.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"></path><circle cx="10" cy="9" r="8" stroke="currentColor" strokeWidth="2"></circle></svg>
         </div>
         <div className={styles.logoContainer}>
             <h1 className={styles.logo}> Mordex Fix </h1>
