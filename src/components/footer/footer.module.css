@@ -3,3 +3,16 @@
     height: 500px;
     background-color: rgb(221, 221, 221);
 }
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+    .container{
+        margin-top: 10px;
+    }
+}
+
