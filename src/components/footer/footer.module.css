@@ -4,6 +4,18 @@
     background-color: rgb(221, 221, 221);
 }
 
+.content{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.titleContainer{
+    display: flex;
+}
+.title{
+    font-size: 15px;
+
+}
 
 @media (max-width: 1024px) {
 

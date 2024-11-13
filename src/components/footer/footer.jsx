@@ -4,9 +4,10 @@ const Footer =()=> {
   return (
 
     <div className={styles.container}>
+      <div className={styles.content}>
         <div className={styles.titleContainer}>
-            <h1>Follow Us</h1>
-            <h1>Subscribe</h1>
+            <h1 className={styles.title}>Follow Us</h1>
+            <h1 className={styles.title}>Subscribe</h1>
         </div>
 
         <div className={styles.socialsContainer}>
@@ -58,6 +59,7 @@ const Footer =()=> {
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 }
