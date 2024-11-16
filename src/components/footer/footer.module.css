@@ -5,16 +5,29 @@
 }
 
 .content{
-    margin-left: 250px;
-    margin-right: 250px;
+    padding-top: 70px;
+    margin-left: 270px;
+    margin-right: 270px;
 }
+
 
 .titleContainer{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
 }
 .title{
-    font-size: 15px;
+    padding-right: 200px;
+    font-size: 18px;
+    font-weight: 800;
+}
 
+
+.socialsContainer{
+    display: flex;
 }
 
 @media (max-width: 1024px) {
