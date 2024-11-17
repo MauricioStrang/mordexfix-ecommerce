@@ -26,8 +26,19 @@
 }
 
 
+.secondContainer{
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 800px;
+    
+}
+
 .socialsContainer{
     display: flex;
+
 }
 
 .socialsBg{
