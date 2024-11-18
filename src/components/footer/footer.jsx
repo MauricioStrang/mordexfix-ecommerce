@@ -4,12 +4,8 @@ const Footer =()=> {
   return (
 
     <div className={styles.container}>
-      <div className={styles.content}>
-        <div className={styles.titleContainer}>
-            <h1 className={styles.title}>Follow Us</h1>
-            <h1 className={styles.title}>Subscribe</h1>
-        </div>
-      <div className={styles.secondContainer}>
+      <div className={styles.leftBox}>
+        <h1 className={styles.title}>Follow Us</h1>
         <div className={styles.socialsContainer}>
           <div className={styles.socialsBg}>
             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">      <path d="M19.5447 9.00674C18.5249 8.54076 17.4313 8.19745 16.2879 8.00082C16.2671 7.99703 16.2463 8.00651 16.2356 8.02548C16.0949 8.27458 15.9392 8.59956 15.8301 8.85499C14.6003 8.67164 13.3768 8.67164 12.1722 8.85499C12.0631 8.59388 11.9017 8.27458 11.7604 8.02548C11.7497 8.00715 11.7289 7.99766 11.708 8.00082C10.5653 8.19682 9.47171 8.54014 8.45129 9.00674C8.44246 9.01053 8.43488 9.01686 8.42986 9.02508C6.35559 12.1111 5.78737 15.1213 6.06612 18.0941C6.06738 18.1087 6.07558 18.1226 6.08693 18.1314C7.45547 19.1323 8.78114 19.7399 10.0822 20.1426C10.103 20.149 10.1251 20.1414 10.1383 20.1243C10.4461 19.7058 10.7204 19.2644 10.9557 18.8004C10.9695 18.7732 10.9563 18.7409 10.9279 18.7302C10.4928 18.5658 10.0784 18.3654 9.67982 18.1378C9.64829 18.1194 9.64577 18.0745 9.67477 18.053C9.75865 17.9904 9.84255 17.9253 9.92264 17.8596C9.93713 17.8475 9.95732 17.845 9.97435 17.8526C12.5929 19.0431 15.4277 19.0431 18.0153 17.8526C18.0323 17.8444 18.0525 17.8469 18.0677 17.8589C18.1478 17.9247 18.2316 17.9904 18.3161 18.053C18.3451 18.0745 18.3433 18.1194 18.3117 18.1378C17.9131 18.3698 17.4988 18.5658 17.063 18.7295C17.0346 18.7403 17.022 18.7732 17.0359 18.8004C17.2762 19.2638 17.5505 19.7051 17.8526 20.1237C17.8652 20.1414 17.8879 20.149 17.9087 20.1426C19.2161 19.7399 20.5417 19.1323 21.9103 18.1314C21.9223 18.1226 21.9298 18.1093 21.9311 18.0948C22.2647 14.6578 21.3723 11.6723 19.5655 9.0257C19.5611 9.01686 19.5535 9.01053 19.5447 9.00674ZM11.3467 16.284C10.5583 16.284 9.90876 15.5632 9.90876 14.6781C9.90876 13.7929 10.5457 13.0721 11.3467 13.0721C12.1539 13.0721 12.7972 13.7992 12.7846 14.6781C12.7846 15.5632 12.1476 16.284 11.3467 16.284ZM16.6632 16.284C15.8748 16.284 15.2253 15.5632 15.2253 14.6781C15.2253 13.7929 15.8622 13.0721 16.6632 13.0721C17.4704 13.0721 18.1137 13.7992 18.1011 14.6781C18.1011 15.5632 17.4704 16.284 16.6632 16.284Z" fill="currentColor"></path> </svg>
@@ -30,48 +26,21 @@ const Footer =()=> {
           </div>
         </div>
 
-        <div>sign up for our mordexFix mailing list.</div>
+        <div className={styles.navFooterContainer}>
+          <div className={styles.navFooter}>Your Account</div>
+          <div className={styles.navFooter}>|</div>
+          <div className={styles.navFooter}>FAQ</div>
+          <div className={styles.navFooter}>|</div>
+          <div className={styles.navFooter}>Contact Us</div>
+          <div className={styles.navFooter}>|</div>
+          <div className={styles.navFooter}>Blog</div>
+          <div className={styles.navFooter}>|</div>
+          <div className={styles.navFooter}>Search</div>
+          <div className={styles.navFooter}>|</div>
+          <div className={styles.navFooter}>Terms</div>
         </div>
-        <div>
-          <div>
-            Email Adress
-          </div>
-          <div>
-            Sign Up
-          </div>
-
-          <div>
-            <h1>Your Account</h1>
-            <h1>FAQ</h1>
-            <h1>Contact Us</h1>
-            <h1>Blog</h1>
-            <h1>Search</h1>
-            <h1>Terms</h1>
-            <p>Copyright @ 2024 mordexFix LLC.</p>
-            <p>powered by your mom</p>
-          </div>
-
-          <div>
-            <div>
-              Argentina USD
-            </div>
-
-            <div>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-              <svg></svg>
-            </div>
-          </div>
-        </div>
+        <p className={styles.credits}>Copyright © 2024 MordexFix LLC.</p>
+        <p className={styles.credits}>Powered by Shopify</p>
       </div>
     </div>
   );
