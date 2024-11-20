@@ -1,9 +1,12 @@
 .container{
-    display: flex;
     width: 100vw;
     height: 480px;
     background-color: rgb(221, 221, 221);
     color: #1D1D1D;
+}
+
+.boxContainer{
+    display: flex;
 }
 
 
@@ -18,6 +21,9 @@
 }
 
 .emailBox{
+    font-size: 15px;
+    padding-left: 8px;
+    color: #949494;
     width: 190px;
     height: 50px;
     border:  1px solid #dddddd;
@@ -72,6 +78,28 @@
     margin-top: 6px;
     font-size: 13px;
     color: #1D1D1DCC;
+}
+
+.selectContainer{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.selectCountry{
+    border:  1px solid #dddddd;
+    width: 155px;
+    height: 35px;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 9px;
+    margin-right: 330px;
 }
 
 @media (max-width: 1024px) {
