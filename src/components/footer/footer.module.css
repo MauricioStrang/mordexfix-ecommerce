@@ -9,15 +9,28 @@
     display: flex;
 }
 
-
 .leftBox{
     margin-left: 270px;
-    width: 50%;
+    width: 500px;
     align-items: center;
 }
 
 .rightBox{
-    margin-left: 60px;
+    padding-left: 200px;
+}
+
+.rightBoxWrapper{
+    margin-right: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mailingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .emailBox{
@@ -99,7 +112,6 @@
     display: flex;
     justify-content: flex-end;
     gap: 9px;
-    margin-right: 330px;
 }
 
 @media (max-width: 1024px) {
