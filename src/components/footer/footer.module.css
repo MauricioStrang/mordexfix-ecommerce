@@ -19,18 +19,19 @@
     padding-left: 200px;
 }
 
-.rightBoxWrapper{
-    margin-right: 270px;
-    width: 100%;
+.rightWrapper{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 45px;
 }
 
 .mailingContainer{
-    display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    width: 100;
+    display: flex;
+    flex-direction: column;
 }
 
 .emailBox{
