@@ -112,14 +112,3 @@
     justify-content: flex-end;
     gap: 9px;
 }
-
-@media (max-width: 1366px) {
-}
-
-@media (max-width: 768px) {
-
-    .container{
-        margin-top: 10px;
-    }
-}
-
