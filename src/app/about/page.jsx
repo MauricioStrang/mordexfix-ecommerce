@@ -4,7 +4,11 @@ const AboutPage =()=> {
   return (
 
     <div className={styles.container}>
-        <h1>ABOUT PAGE no timexd</h1>
+        <div className={styles.header}>
+          <h1 className={styles.pageTitle}>About Us</h1>
+        </div>
+
+        <div className={styles.pageContent}></div>
     </div>
   );
 }
