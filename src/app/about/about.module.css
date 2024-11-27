@@ -1,5 +1,54 @@
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 70px;
     width: 100vw;
+}
+
+.header{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.subHeader{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #1d1d1d;
+    font-size: var(--font-size-heading-2);
+    font-weight: bold;
+}
+
+.pageContent{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile{
+    margin-bottom: 1rem;
+    color: #1d1d1d;
+    font-size: var(--font-size-heading-3);
+    font-family: Montserrat, sans-serif;
+}
+
+.photo{
+    margin-right: 1rem;
+    float: left;
+}
+
+.subTitles{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.list{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-left: 1em
 }
