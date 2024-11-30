@@ -4,7 +4,11 @@ const ContactPage =()=> {
   return (
 
     <div className={styles.container}>
-        <h1>CONTACT PAGE no timexd</h1>
+        <div className={styles.header}></div>
+        <form className={styles.mainContent}>
+          <div className={styles.contentRte}></div>
+          <div className={styles.contactPageContent}></div>
+        </form>
     </div>
   );
 }
