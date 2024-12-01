@@ -22,6 +22,27 @@ const ContactPage =()=> {
 
           <div className={styles.contactPageContent}>
 
+            <div className={styles.formFieldColumns}>
+              <div className={styles.formFieldHalf}>
+                <input className={styles.formFieldInput} id="contact_name" name="contact[name]" type="text" value=""/>
+                <label className={styles.formFieldTitle} for="contact_name">Name</label>
+              </div>
+              <div className={styles.formFieldHalf}>
+                <input type="text" name="" id="" />
+              </div>
+            </div>
+
+            <div>
+              <input type="text" />
+            </div>
+
+            <div>
+              <textarea name="" id=""></textarea>
+            </div>
+
+            <div>
+              <button></button>
+            </div>
           </div>
         </form>
     </div>
