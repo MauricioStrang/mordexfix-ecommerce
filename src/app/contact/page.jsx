@@ -24,16 +24,15 @@ const ContactPage =()=> {
 
             <div className={styles.formFieldColumns}>
               <div className={styles.formFieldHalf}>
-                <input className={styles.formFieldInput} id="contact_name" name="contact[name]" type="text" value=""/>
-                <label className={styles.formFieldTitle} for="contact_name">Name</label>
+                <input className={styles.formFieldInput} placeholder="Name" name="contact" type="text" value=""/>
               </div>
               <div className={styles.formFieldHalf}>
-                <input type="text" name="" id="" />
+                <input className={styles.formFieldInput} type="text" name="" placeholder="Email"/>
               </div>
             </div>
 
-            <div>
-              <input type="text" />
+            <div className={styles.formFieldRow}>
+              <input className={styles.formFieldInput}  type="text" />
             </div>
 
             <div>
