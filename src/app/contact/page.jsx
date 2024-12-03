@@ -32,16 +32,15 @@ const ContactPage =()=> {
             </div>
 
             <div className={styles.formFieldRow}>
-              <input className={styles.formFieldInput}  type="text" />
+              <input className={styles.formFieldInput}  type="text" placeholder="Phone Number" />
             </div>
 
-            <div>
-              <textarea name="" id=""></textarea>
+            <div className={styles.textArea}>
+              <textarea className={styles.formFieldInput} placeholder="Message"></textarea>
             </div>
 
-            <div>
-              <button></button>
-            </div>
+    
+              <button className={styles.sendButton} type="submit">Send</button>
           </div>
         </form>
     </div>

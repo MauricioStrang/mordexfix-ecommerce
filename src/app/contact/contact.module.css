@@ -31,7 +31,7 @@
 
 .subTitle{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Montserrat, sans-serif;
     font-size: 24px;
     font-weight: 800;
@@ -39,7 +39,8 @@
 }
 
 .contactPageContent{
-    width: 680px;
+    margin-top: 50px;
+    width: 650px;
 }
 
 
@@ -47,20 +48,62 @@
     justify-content: space-between;
     display: flex;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .formFieldHalf{
     color: #4d4d4d;
     border: 1px solid #dddddd;
     height: 50px;
-    width: 49%;
     font-weight: 400;
     font-size: 18px;
     border-radius: 3px;
+    width: 49%;
+}
+
+.formFieldRow{
+    color: #4d4d4d;
+    border: 1px solid #dddddd;
+    height: 50px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.textArea{
+    width: 100%;
+    color: #4d4d4d;
+    border: 1px solid #dddddd;
+    height: 150px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 
 .formFieldInput{
     height: 100%;
     width: 100%
+}
+
+.buttonContainer{
+    width: 75px;
+    height: 45px;
+    color: #fff;
+    background-color: #e87714;
+    border: 1px solid #e87714;
+}
+
+.sendButton{
+    font-size: 19px;
+    width: 75px;
+    height: 45px;
+    color: #fff;
+    background-color: #e87714;
+    border: 1px solid #e87714;
+    margin-bottom: 100px;
+    border-radius: 3px;
 }
