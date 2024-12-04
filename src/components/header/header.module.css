@@ -64,6 +64,7 @@
 }
 
 .selectButton{
+    cursor: pointer;
     position: absolute;
     display: flex;
     width:140px;
