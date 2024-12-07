@@ -1,6 +1,7 @@
 import SelectButton from "@/components/selectButton/selectButton";
 import styles from "./test.module.css"
-import Header from "@/components/header/header";
+import TestHeader from "@/components/testHeader/testHeader";
+import SubHeader from "@/components/subHeader/subHeader";
 
 
 const TestPage = () =>{
@@ -8,7 +9,8 @@ const TestPage = () =>{
         <div className={styles.container}>
             <h1>This is Test Page</h1>
             <SelectButton/>
-            <Header/>
+            <TestHeader/>
+            <SubHeader/>
         </div>
     )
 }
