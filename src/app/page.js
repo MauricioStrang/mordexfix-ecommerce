@@ -66,7 +66,7 @@ export default function Home() {
               </div>
 
                 <div className={styles.linksContainer}>
-                <a className={styles.linksClickable} href="/repairs"></a>
+                <a className={styles.linksClickable} href="/blog"></a>
                 <div className={styles.imgContainer}>
                 <svg aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">      <path d="M22.1522 2.36196C10.5087 2.36196 1.06885 10.1591 1.06885 19.7786C1.11775 22.1736 1.70312 24.527 2.78188 26.6658C3.86063 28.8046 5.4053 30.6743 7.30218 32.1371L2.90218 42.6953L14.5842 36.0201C17.0313 36.799 19.5841 37.1954 22.1522 37.1953C33.7975 37.1953 43.2355 29.3981 43.2355 19.7786C43.2355 10.1591 33.7975 2.36196 22.1522 2.36196Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>      <path d="M23.069 28.0286V17.0286C23.069 16.5424 22.8759 16.0761 22.532 15.7323C22.1882 15.3884 21.7219 15.1953 21.2357 15.1953H19.4023" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>      <path d="M19.4023 28.0286H26.7357" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>      <path d="M22.5662 10.5857C22.8194 10.5857 23.0246 10.7909 23.0246 11.0441C23.0246 11.2972 22.8194 11.5024 22.5662 11.5024C22.3131 11.5024 22.1079 11.2972 22.1079 11.0441C22.1079 10.7909 22.3131 10.5857 22.5662 10.5857" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>    </svg>
                 </div>
