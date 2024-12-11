@@ -15,11 +15,12 @@
 }
 
 .date{
-
+    font-weight: bold;
 }
 
 .title{
-
+    font-weight: bold;
+    font-size: var();
 }
 
 .text{
