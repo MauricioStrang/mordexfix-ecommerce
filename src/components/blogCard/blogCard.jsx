@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./blogCard.module.css"
 
 
-const BlogCard = ({blogImage, blogDate, blogTitle, blogDesc})=>{
+const BlogCard = ({blogImage, blogDate, blogLink, blogTitle, blogDesc})=>{
     return(
         <div className={styles.container}>
             <Image src={blogImage} className={styles.img} width="450" height="250"/>
@@ -15,7 +15,9 @@ const BlogCard = ({blogImage, blogDate, blogTitle, blogDesc})=>{
             <div className={styles.text}>
                 <p>{blogDesc}</p>
             </div>
-            <div className={styles.link}>Read now</div>
+            <div className={styles.link}>
+                <a href={blogLink}>Read now {'>'}</a>
+            </div>
         </div>
     )
 };

@@ -2,6 +2,14 @@
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.navigatorContaier{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
