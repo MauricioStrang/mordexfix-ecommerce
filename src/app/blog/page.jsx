@@ -16,6 +16,7 @@ const BlogPage = () =>{
                     <a href="/blog/page2">2</a>
                     <a href="/blog/page3">3</a>
                     <a href="/blog/page4">4</a>
+                    <a href="/blog/page4">{'>'}</a>
                 </div>
             </div>
         </div>
