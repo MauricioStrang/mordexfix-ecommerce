@@ -6,8 +6,8 @@ const FaqPage =()=> {
         <div className={styles.wrapper}>
             <h1>FAQ</h1>
 
-            <div>
-              <h1>Q. How do I contact you?</h1>
+            <div className={styles.titleContainer}>
+              <h1 className={styles.title}>Q. How do I contact you?</h1>
               <p>A. That's easy! The easiest, fastest way is to use the form on our <a href="">contact page.</a></p>
             </div>
 
