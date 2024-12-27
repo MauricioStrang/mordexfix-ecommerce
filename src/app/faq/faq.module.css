@@ -1,3 +1,4 @@
+
 .container{
     margin-top: 100px;
     display: flex;
@@ -5,9 +6,37 @@
 }
 
 .wrapper{
+    font-family: Montserrat, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 680px;
+}
+
+.mainTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.question{
+    margin-bottom: 60px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.desc{
+    font-family: var(--font-nunito-sans), sans-serif;
+    text-decoration: dotted;
+    margin-bottom: 10px;
+}
+
+.decor{
+    color: #E87714;
 }
