@@ -4,3 +4,20 @@
     display: flex;
     justify-content: center;
 }
+
+
+.wrapper{
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 680px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
